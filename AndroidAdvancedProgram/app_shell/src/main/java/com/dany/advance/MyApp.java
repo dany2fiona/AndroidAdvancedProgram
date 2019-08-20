@@ -23,6 +23,7 @@ public class MyApp extends Application {
                     .detectNetwork()
                     .penaltyDialog()
                     .penaltyLog()
+                    
                     .penaltyFlashScreen()
                     .build());
             StrictMode.setVmPolicy(new StrictMode.VmPolicy.Builder()
